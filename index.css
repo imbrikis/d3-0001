@@ -28,3 +28,15 @@ h1 {
   font-size: 6rem;
   text-transform: uppercase;
 }
+
+.bar-chart {
+  background: rgb(207, 255, 158);
+}
+
+/* rect {
+  fill: #000;
+} */
+
+.svg-container {
+  background: darkblue;
+}

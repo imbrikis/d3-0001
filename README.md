@@ -2,5 +2,5 @@
 
 ## Learning D3
 
-- Index01.html: overview of D3 (https://www.youtube.com/watch?v=C4t6qfHZ6Tw)
+- Index.html: overview of D3 (https://www.youtube.com/watch?v=C4t6qfHZ6Tw)
 - Index02.html: data joins (https://bost.ocks.org/mike/circles/)
