@@ -7,7 +7,7 @@ d3.select('svg').selectAll('g').data(data).enter().append('g')
     .append('rect')
     .attr('width', (d) => d.population * scale)
     .attr('height', 50)
-    .attr('fill', 'green')
+    .attr('fill', 'darkblue')
     .attr('transform', (d, i) => `translate(0, ${i * 55})`)
 })()
 
@@ -15,6 +15,16 @@ d3.selectAll('g')
   .append('text')
   .text((d) => d.name)
   .attr('dy', '28')
-  .attr('dx', '10')
+  .attr('dx', '2')
   .attr('fill', 'white')
   .attr('transform', (d, i) => `translate(0, ${i * 55})`)
+
+d3.selectAll('rect')
+
+d3.selectAll('rect').transition().duration(2000).style('fill', 'orange')
+
+const changeColorBack = () => {
+  d3.selectAll('rect').transition().duration(2000).style('fill', 'darkblue')
+}
+
+setTimeout(changeColorBack, 2000)
