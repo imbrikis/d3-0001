@@ -20,8 +20,11 @@ body {
 /***********************
 Styles
 ***********************/
-.line-graph {
+h1 {
+  margin-top: 4rem;
+}
+.svg {
   width: 100vw;
-  height: 100vh;
-  background: #ddd;
+  height: 80vh;
+  padding: 3rem 10rem;
 }
