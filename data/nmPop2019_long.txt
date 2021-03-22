@@ -1,0 +1,377 @@
+1	Albuquerque	559,374
+2	Las Cruces	102,102
+3	Rio Rancho	96,210
+4	Santa Fe	83,922
+5	Roswell	47,941
+6	Farmington	45,258
+7	South Valley	40,080
+8	Clovis	38,891
+9	Hobbs	38,375
+10	Alamogordo	31,384
+11	Carlsbad	29,158
+12	Gallup	21,854
+13	Sunland Park	17,081
+14	Los Lunas	15,589
+15	Chaparral	14,437
+16	Deming	14,139
+17	North Valley	13,449
+18	Las Vegas	13,176
+19	Los Alamos	12,666
+20	Artesia	12,262
+21	Portales	11,854
+22	Lovington	11,491
+23	Española	10,102
+24	Bernalillo	9,669
+25	Silver City	9,627
+26	Anthony	9,310
+27	Grants	9,036
+28	Shiprock	9,020
+29	Corrales	8,588
+30	Socorro	8,460
+31	Bloomfield	7,846
+32	Ruidoso	7,791
+33	Belen	7,403
+34	Zuni Pueblo	7,001
+35	Aztec	6,530
+36	North Hobbs	6,301
+37	Los Ranchos de Albuquerque	6,114
+38	Los Chaves	6,109
+39	Edgewood	6,071
+40	Raton	6,047
+41	Taos	5,967
+42	Truth or Consequences	5,894
+43	Eldorado at Santa Fe	5,823
+44	White Rock	5,751
+45	Lee Acres	5,735
+46	Santa Teresa	5,515
+47	Tucumcari	4,919
+48	Placitas CDP	4,686
+49	Paradise Hills	4,656
+50	Rio Communities	4,568
+51	El Cerro Mission	4,170
+52	Holloman AFB	4,096
+53	Bosque Farms	3,876
+54	Meadow Lake	3,832
+55	La Cienega	3,732
+56	Milan	3,660
+57	Peralta	3,576
+58	Sandia Heights	3,571
+59	Santa Rosa	3,379
+60	El Cerro	3,202
+61	Clayton	3,184
+62	Vado	3,099
+63	Eunice	3,037
+64	University Park	2,945
+65	Tularosa	2,944
+66	West Hammond	2,777
+67	Dulce	2,750
+68	Agua Fria	2,734
+69	Chimayo	2,641
+70	Ruidoso Downs	2,573
+71	Cannon AFB	2,475
+72	Bayard	2,442
+73	Crownpoint	2,419
+74	Lordsburg	2,408
+75	La Mesilla	2,314
+76	Santo Domingo Pueblo	2,292
+77	Mesilla	2,280
+78	Moriarty	2,223
+79	San Felipe Pueblo	2,217
+80	Ranchos de Taos	2,178
+81	Boles Acres	2,173
+82	San Ysidro	2,060
+83	Pojoaque	2,027
+84	Jarales	2,026
+85 TIE	Valencia and Jemez Pueblo	2,018
+86	El Valle de Arroyo Seco	2,009
+87	Questa	1,997
+88	Tome	1,988
+89	Hatch	1,955
+90	Jal	1,896
+91	Berino	1,877
+92	Nambe	1,820
+93	Arenas Valley	1,813
+94	Arroyo Seco	1,794
+95	Santa Clara	1,766
+96	Las Maravillas	1,723
+97	Keeler Farm	1,706
+98	Flora Vista	1,688
+99	Upper Fruitland	1,686
+100	Black Rock	1,656
+101	Thoreau	1,641
+102	Waterflow	1,623
+103	Spencerville	1,609
+104	La Huerta	1,608
+105	Monterey Park	1,600
+106	Sausal	1,566
+107	Capitan	1,518
+108	Estancia	1,478
+109	Sandia Knolls	1,475
+110	Pecos	1,468
+111	Radium Springs	1,467
+112	Navajo	1,450
+113	Taos Pueblo	1,425
+114	San Rafael	1,413
+115	Hurley	1,384
+116	Elephant Butte	1,352
+117	Carnuel	1,305
+118	Fairacres	1,294
+119	Ohkay Owingeh	1,256
+120	White Sands	1,246
+121	Mescalero	1,244
+122	Loving	1,241
+123	La Luz	1,222
+124	Fort Sumner	1,209
+125	Atoka	1,193
+126	El Rancho	1,183
+127	Ponderosa Pine	1,159
+128	Doña Ana	1,158
+129	San Antonito	1,150
+130	Dexter	1,121
+131	Columbus	1,118
+132	Twin Lakes	1,117
+133 TIE	Indian Hills and Laguna	1,075
+134	Skyline-Ganipa	1,055
+135	Texico	1,033
+136	Chama	1,026
+137	San Pablo	1,019
+138	Tesuque	1,008
+139	La Union	994
+140	Sedillo	986
+141	San Miguel	978
+142	La Puebla	952
+143 TIE	Zia Pueblo and McIntosh	939
+144	Talpa	934
+145	Cimarron	930
+146	Adelino	919
+147	Kirtland	917
+148	High Rolls	910
+149	Paraje	903
+150	Chamita	899
+151	Church Rock	887
+152	Midway	861
+153	Mountainair	852
+154	Alamo	851
+155	Mesita	825
+156	Santa Clara Pueblo	820
+157	El Rito	808
+158	Mora	807
+159	San Ildefonso Pueblo	803
+160	Hagerman	790
+161	Morningside	787
+162	Tierra Amarilla	784
+163	Springer	782
+164	Happy Valley	774
+165 TIE	Cedar Hill and Angel Fire	773
+166	Carrizozo	760
+167	Hernandez	751
+168	El Duende	743
+169	Tohatchi	741
+170	Peña Blanca	731
+171	Napi Headquarters	728
+172	Tatum	726
+173	Ventura	714
+174	Livingston Wheeler	706
+175 TIE	Cordova and Algodones	704
+176	Cedar Crest	691
+177	Santa Ana Pueblo	682
+178 TIE	Tyrone and San Jose	680
+179	Cuba	678
+180	Peñasco	667
+181	Cloudcroft	654
+182 TIE	Lemitar and Magdalena	653
+183	East Pecos	646
+184	Nenahnezad	644
+185	La Mesa	638
+186	Ojo Amarillo	637
+187	Chamberino	625
+188	Logan	620
+189	Glorieta	618
+190	Tijeras	610
+191	Los Luceros	604
+192	Melrose	600
+193	Rodey	594
+194	Madrone	590
+195	La Hacienda	587
+196	Acomita Lake	574
+197	La Villita	573
+198	Mimbres	572
+199	Ribera	552
+200	Chili	549
+201	Yah-ta-hey	548
+202	Reserve	537
+203	Cedar Grove	535
+204	Cañada de los Alamos	511
+205	Rock Springs	506
+206	La Plata	503
+207	Sanostee	500
+208	Cochiti Lake	487
+209	Lake Arthur	479
+210	San Fidel	473
+211 TIE	Red River and Williamsburg	465
+212	Highland Meadows	451
+213	Pleasanton	450
+214	Cochiti	445
+215	Cuyamungue	431
+216	Ramah	427
+217	Rio Lucio	424
+218	Pueblo of Sandia Village	422
+219	Peak Place	409
+220	Mesquite	408
+221 TIE	Isleta Village Proper and Cedro	402
+222	Pueblo Pintado	388
+223	Jacona	387
+224	Dixon	386
+225	Naschitti	383
+226	Paguate	379
+227	Pinos Altos	372
+228	Seama	368
+229	Rincon	365
+230	Placitas	364
+231	Newcomb	359
+232	Chamisal	348
+233	San Mateo	346
+234 TIE	Crystal and Brimhall Nizhoni	345
+235	Canjilon	337
+236	Edith Endave	336
+237	Cotton City	333
+238	Cubero	331
+239	Sunshine	328
+240	La Jara	325
+241	Jaconita	323
+242	Pulpotio Bareas	320
+243 TIE	Rowe and Las Palomas	319
+244	Tesuque Pueblo	318
+245	Vadito	315
+246	Pueblitos	314
+247	Maxwell	312
+248 TIE	Salem and Manzano Springs	311
+249	Villanueva	309
+250	Velarde	302
+251	Vaughn	300
+252	Nakaibito	297
+253	North Light Plant	296
+254	Beclabito	295
+255	Nadine	294
+256	Abeytas	293
+257	Jemez Springs	285
+258	Encinal	284
+259	Timberon	275
+260	North Acomita Village	273
+261	Eagle Nest	271
+262	Wagon Mound	268
+263 TIE	Navajo Dam, Tajique, and Pajarito Mesa	266
+264	San Jon	263
+265	Ponderosa	255
+266 TIE	San Ysidro village and Tecolotito	254
+267	Sheep Springs	250
+268 TIE	Cruzville and Santa Cruz	249
+269	White Signal	244
+270	Torreon	243
+271	Young Place	240
+272	Sandia Park	236
+273	Galisteo	234
+274	Gila	226
+275	Willard	225
+276	Madrid	218
+277	Cuyamungue Grant	217
+278	San Luis	212
+279	Organ	210
+280 TIE	Hanover and Ute Park	205
+281	Chupadero	204
+282	Bluewater Acres	202
+283	Torreon CDP	200
+284	Lyden	199
+285	Cañon	198
+286	Roy	188
+287	Tse Bonito	186
+288	Twin Forks	185
+289	San Cristobal	184
+290	Nageezi	183
+291	Los Cerrillos	182
+292	Elida	178
+293	Quemado	177
+294 TIE	Arroyo Hondo and Truchas	176
+295	San Jose CDP	172
+296	Glen Acres	171
+297	Seboyeta	169
+298	Soham	167
+299	San Lorenzo	166
+300 TIE	Blanco, Lamy, and Alcalde	159
+301	Hillsboro	154
+302 TIE	Grady and Abiquiu	151
+303	Buckhorn	150
+304	Tecolote	149
+305	Alamillo	143
+306	Lake Sumner	142
+307	Nogal	140
+308 TIE	La Cueva and San Pedro	137
+309	Cliff	135
+310 TIE	Monument and Llano del Medio	134
+311	Causey	131
+312	Virden	127
+313	Polvadera	126
+314 TIE	Casa Colorada and Mountain View	125
+315 TIE	Anton Chico and Las Nutrias	124
+316	Watrous	123
+317	Rosedale	122
+318	Corona	121
+319	Gallina	120
+320	Lumberton	116
+321	Des Moines	115
+322 TIE	Malaga and Animas	114
+323 TIE	Picuris Pueblo and Fence Lake	113
+324	Pie Town	111
+325 TIE	Hope and Dora	110
+326 TIE	Floyd and Chical	108
+327	Pueblito	106
+328	McCartys Village	103
+329	Canova	102
+330	North Hurley	98
+331	Lake Valley	96
+332 TIE	Apache Creek, Windmill, and Aragon	93
+333 TIE	Costilla and Cañones	92
+334	Rio en Medio	89
+335	Brazos	88
+336	Sacramento	86
+337	Whites City	85
+338 TIE	Sombrillo and Luis Lopez	83
+339	Bluewater Village	82
+340	Chamizal	76
+341	Encino	74
+342	Veguita	73
+343 TIE	Escudilla Bonita, San Acacia, Winston, and Coyote	72
+344	Rodeo	71
+345 TIE	Pinehill and Regina	69
+346	Oasis	67
+347	House	66
+348 TIE	Puerto de Luna and Bent	62
+349	Moquino	58
+350 TIE	Mayhill and Taos Ski Valley	56
+351 TIE	Bibo and Mosquero	55
+352 TIE	Playas and Chilili	54
+353	Los Ojos	52
+354	North San Ysidro	51
+355	Lake Roberts Heights	50
+356 TIE	Faywood and City of the Sun	46
+357	Caballo	45
+358 TIE	Youngsville and Nara Visa	44
+359	Folsom	43
+360	Orogrande	41
+361	Hachita	38
+362 TIE	South Acomita Village and Duran	37
+363	Anzac Village	36
+364 TIE	Glenwood, Capulin, and Cundiyo	34
+365	Lake Roberts	33
+366	Homestead	32
+367	Weed	31
+368 TIE	Luna and Middle Frisco	27
+369 TIE	La Madera and Arrey	25
+370 TIE	Ensenada, Escondida, Loco Hills, and Datil	24
+371	Cobre	23
+372 TIE	Kingston and Cuartelez	21
+373	Grenville	19
+374	La Joya	14
+375	Conchas Dam	13
+376	San Antonio	11
+377	Pastura	5

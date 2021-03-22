@@ -1,0 +1,11 @@
+const data = [
+  {name: Albuquerque,	population: 559,374},
+  {name: Las Cruces,	population: 102,102},
+  {name: Rio Rancho,	population: 96,210},
+  {name: Santa Fe,	population: 83,922},
+  {name: Roswell,	population: 47,941},
+  {name: Farmington,	population: 45,258},
+  {name: South Valley,	population: 40,080},
+  {name: Clovis,	population: 38,891},
+  {name: Hobbs,	population: 38,375},
+  {name: Alamogordo,	population: 31,384}]
