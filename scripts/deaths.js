@@ -12,42 +12,101 @@ d3.csv('../data/deaths.csv').then((data) => {
 })
 
 const dataViz = (vizData) => {
-  console.log(vizData)
+  // console.log(vizData)
 
   const vizYear = 2016,
-    vizCauseOfDeath = 'Number of executions (Amnesty International)'
+    vizCauseOfDeath = 'Cardiovascular diseases'
+
+  d3.select('body')
+    .insert('div', ':first-child')
+    .classed('title', true)
+    .html(`World Deaths - ${vizYear} - ${vizCauseOfDeath}`)
 
   // filters vizData by year
   const filterDataByYear = (data, year) => {
-    const results = []
+    let results = []
     data.forEach((item) => {
       item.info.forEach((i) => {
-        if (+i.Year === year) results.push(i)
+        if (
+          +i.Year === year &&
+          i.Entity !== 'Andean Latin America' &&
+          i.Entity !== 'Central African Republic' &&
+          i.Entity !== 'Central America & Caribbean' &&
+          i.Entity !== 'Central Asia' &&
+          i.Entity !== 'Central Europe' &&
+          i.Entity !== 'Central Europe, Eastern Europe, and Central Asia' &&
+          i.Entity !== 'Central Latin America' &&
+          i.Entity !== 'Central Sub-Saharan Africa' &&
+          i.Entity !== 'East Asia' &&
+          i.Entity !== 'Eastern Europe' &&
+          i.Entity !== 'Eastern Sub-Saharan Africa' &&
+          i.Entity !== 'High SDI' &&
+          i.Entity !== 'High-income' &&
+          i.Entity !== 'High-income Asia Pacific' &&
+          i.Entity !== 'High-middle SDI' &&
+          i.Entity !== 'Latin America and Caribbean' &&
+          i.Entity !== 'Low SDI' &&
+          i.Entity !== 'Low-middle SDI' &&
+          i.Entity !== 'Middle East & North Africa' &&
+          i.Entity !== 'Middle SDI' &&
+          i.Entity !== 'North Africa and Middle East' &&
+          i.Entity !== 'North America' &&
+          i.Entity !== 'South America' &&
+          i.Entity !== 'South Asia' &&
+          i.Entity !== 'Southeast Asia' &&
+          i.Entity !== 'Southeast Asia, East Asia, and Oceania' &&
+          i.Entity !== 'Southern Latin America' &&
+          i.Entity !== 'Southern Sub-Saharan Africa' &&
+          i.Entity !== 'Sub-Saharan Africa' &&
+          i.Entity !== 'Tropical Latin America' &&
+          i.Entity !== 'Western Europe' &&
+          i.Entity !== 'Western Sub-Saharan Africa' &&
+          i.Entity !== 'World' &&
+          i.Entity !== 'World (excluding China)'
+        )
+          results.push(i)
       })
     })
     return results
   }
 
-  svg
-    .selectAll('g')
-    .data(filterDataByYear(vizData, vizYear))
-    .enter()
-    .append('g')
+  const newData = filterDataByYear(vizData, vizYear)
+  console.log(newData)
 
-  d3.selectAll('g')
+  const svgGroups = svg.selectAll('g').data(newData).enter().append('g')
+
+  const maxX = d3.max(newData, (d) => +d[vizCauseOfDeath])
+  // console.log(maxX)
+  const scaleX = d3.scaleLinear().domain([0, maxX]).range([0, 990])
+
+  svgGroups
+    .append('rect')
+    .each((d) => console.log(d[vizCauseOfDeath]))
+    .attr('transform', (d, i) => `translate(10, ${i * 10 + 10})`)
+    .attr('height', 10)
+    .attr('width', (d) => scaleX(d[vizCauseOfDeath]))
+    .attr('fill', 'black')
+
+  svgGroups
     .append('text')
-    .classed('elTexto', true)
-    .attr('transform', (d, i) => `translate(10, ${i * 15 + 15})`)
-    .text(
-      (d) =>
-        `In ${d.Year}, ${
-          Number(d[vizCauseOfDeath])
-            ? Math.floor(+d[vizCauseOfDeath])
-            : d[vizCauseOfDeath] === ''
-            ? '0'
-            : d[vizCauseOfDeath]
-        } people died by execution in ${d.Entity}`
-    )
+    .attr('transform', (d, i) => `translate(15, ${i * 10 + 18})`)
+    // .attr('alignment-baseline', 'middle')
+    .attr('font-size', 10)
+    .attr('fill', 'gray')
+    .each((d) => console.log(d))
+    .text((d) => d.Entity)
+  // .append('text')
+  // .attr('transform', (d, i) => `translate(10, ${i * 15 + 15})`)
+  // .text(
+  //   (d) =>
+  //     `In ${d.Year}, ${
+  //       Number(d[vizCauseOfDeath])
+  //         ? Math.floor(+d[vizCauseOfDeath])
+  //         : d[vizCauseOfDeath] === ''
+  //         ? '0'
+  //         : d[vizCauseOfDeath]
+  //     } people died by execution in ${d.Entity}`
+  // )
 }
 
 /*
