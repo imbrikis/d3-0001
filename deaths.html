@@ -6,22 +6,39 @@
       * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
         /*         overflow: hidden;  */
       }
-      .title {
+      h1 {
         text-align: center;
-        margin-top: 2rem;
+        padding-top: 2rem;
+      }
+      svg {
+        display: block;
+        margin: 0 auto;
+      }
+      .nav-buttons {
+        width: 15rem;
+        height: 100vh;
+        background: #eee;
+        border-right: 2px solid grey;
+        position: sticky;
+        bottom: 0;
+        top: 0;
+        left: 0;
       }
     </style>
     <script src="https://d3js.org/d3.v6.min.js"></script>
   </head>
   <body>
+    <h1 class="title"></h1>
     <svg
       style="box-sizing: border-box"
       id="container"
       width="1000"
-      height="4500"
+      height="2100"
     ></svg>
+    <div class="nav-buttons"></div>
     <script src="./scripts/deaths.js" type="module"></script>
   </body>
 </html>

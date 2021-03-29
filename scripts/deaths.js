@@ -12,15 +12,12 @@ d3.csv('../data/deaths.csv').then((data) => {
 })
 
 const dataViz = (vizData) => {
-  // console.log(vizData)
+  console.log(vizData)
 
-  const vizYear = 2016,
-    vizCauseOfDeath = 'Cardiovascular diseases'
+  const vizYear = 2001,
+    vizCauseOfDeath = 'Terrorism (deaths)'
 
-  d3.select('body')
-    .insert('div', ':first-child')
-    .classed('title', true)
-    .html(`World Deaths - ${vizYear} - ${vizCauseOfDeath}`)
+  d3.select('.title').html(`World Deaths - ${vizYear} - ${vizCauseOfDeath}`)
 
   // filters vizData by year
   const filterDataByYear = (data, year) => {
@@ -71,42 +68,30 @@ const dataViz = (vizData) => {
   }
 
   const newData = filterDataByYear(vizData, vizYear)
-  console.log(newData)
+  // console.log(newData)
 
   const svgGroups = svg.selectAll('g').data(newData).enter().append('g')
 
   const maxX = d3.max(newData, (d) => +d[vizCauseOfDeath])
-  // console.log(maxX)
   const scaleX = d3.scaleLinear().domain([0, maxX]).range([0, 990])
 
   svgGroups
     .append('rect')
-    .each((d) => console.log(d[vizCauseOfDeath]))
     .attr('transform', (d, i) => `translate(10, ${i * 10 + 10})`)
+    .attr('width', 0)
     .attr('height', 10)
+    .transition()
+    .duration(2000)
     .attr('width', (d) => scaleX(d[vizCauseOfDeath]))
     .attr('fill', 'black')
 
   svgGroups
     .append('text')
     .attr('transform', (d, i) => `translate(15, ${i * 10 + 18})`)
-    // .attr('alignment-baseline', 'middle')
     .attr('font-size', 10)
     .attr('fill', 'gray')
-    .each((d) => console.log(d))
+    // .each((d) => console.log(d))
     .text((d) => d.Entity)
-  // .append('text')
-  // .attr('transform', (d, i) => `translate(10, ${i * 15 + 15})`)
-  // .text(
-  //   (d) =>
-  //     `In ${d.Year}, ${
-  //       Number(d[vizCauseOfDeath])
-  //         ? Math.floor(+d[vizCauseOfDeath])
-  //         : d[vizCauseOfDeath] === ''
-  //         ? '0'
-  //         : d[vizCauseOfDeath]
-  //     } people died by execution in ${d.Entity}`
-  // )
 }
 
 /*
